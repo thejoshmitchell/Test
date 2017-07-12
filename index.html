@@ -1,61 +1,80 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <title>TheMitchellSchool.com</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--CSS File-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!--JavaQuery File-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!--JavaScript File-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1 style="font-family: sans-serif;"><strong>TheMitchellSchool.com</strong></h1>
-	<nav class="navbar navbar-inverse">
-	    <div class="container-fluid">
-	        <div class="navbar-header">
-			    <a style="color: red;" class="navbar-brand" href="#"><em>TMS</em></a>
+	<head>
+		<title>TheMitchellSchool.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--CSS File-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!--JavaQuery File-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--JavaScript File-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+	<body>
+		<h1 style="font-family: sans-serif;"><strong>TheMitchellSchool.com</strong></h1>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a style="color: red;" class="navbar-brand" href="#"><em>TMS</em></a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					<li><a href="#">Option1</a></li>
+					<li><a href="#">Option2</a></li>
+					<li><a href="#">Option3</a></li>
+				<ul>
 			</div>
-			<ul class="nav navbar-nav">
-			    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-				<li><a href="#">Option1</a></li>
-				<li><a href="#">Option2</a></li>
-				<li><a href="#">Option3</a></li>
-			<ul>
-	    </div>
-	</nav>
-	<div class="jumbotron">
-	    <h1>The Mitchell School</h1>
-		<p style="color: red;">An online environment dedicated to providing relevant and useful content in engaging and effective ways.</p>
-	</div>
+		</nav>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+			<li><a data-toggle="tab" href="#First">First</a></li>
+			<li><a data-toggle="tab" href="#Second">Second</a></li>
+			<li><a data-toggle="tab" href="#Third">Third</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<div class="jumbotron">
+					<h1>The Mitchell School</h1>
+					<p style="color: red;">An online environment dedicated to providing relevant and useful content in engaging and effective ways.</p>
+				</div>
 	
-	<ul class="nav nav-tabs">
-		<li class="active"><a data-toggle="tab" href="#choice1">Choice 1</a></li>
-		<li><a data-toggle="tab" href="#choice2">Choice 2</a></li>
-		<li><a data-toggle="tab" href="#choice3">Choice 3</a></li>
-		<li><a data-toggle="tab" href="#choice4">Choice 4</a></li>
-	</ul>
-	
-	<div class="tab-content">
-		<div id="choice1" style="background-color: gray; color: red; "class="tab-pane fade in active">
-			<h1>Choice 1</h1>
-			<p>Desription of this option</p>
-	    </div>
-		<div id="choice2" class="tab-pane fade">
-			<h1>Choice 2</h1>
-			<p>Desription of this option</p>
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#choice1">Choice 1</a></li>
+					<li><a data-toggle="tab" href="#choice2">Choice 2</a></li>
+					<li><a data-toggle="tab" href="#choice3">Choice 3</a></li>
+					<li><a data-toggle="tab" href="#choice4">Choice 4</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div id="choice1" style="background-color: gray; color: red; "class="tab-pane fade in active">
+						<h1>Choice 1</h1>
+						<p>Desription of this option</p>
+					</div>
+					<div id="choice2" class="tab-pane fade">
+						<h1>Choice 2</h1>
+						<p>Desription of this option</p>
+					</div>
+					<div id="choice3" style="background-color: grey; color: red;"class="tab-pane fade">
+						<h1>Choice 3</h1>
+						<p>Desription of this option</p>
+					</div>
+					<div id="choice4" class="tab-pane fade">
+						<h1>Choice 4</h1>
+						<p>Desription of this option</p>
+					</div>
+				</div>
+			</div>
+			<div id="First" class="tab-pane fade">
+				<h1><strong>First Page</strong></h1>
+			</div>
+			<div id="Second" class="tab-pane fade">
+				<h1><strong>Second Page</strong></h1>
+			</div>
+			<div id="Third" class="tab-pane fade">
+				<h1><strong>Third Page</strong></h1>
+			</div>
 		</div>
-		<div id="choice3" style="background-color: grey; color: red;"class="tab-pane fade">
-			<h1>Choice 3</h1>
-			<p>Desription of this option</p>
-		</div>
-		<div id="choice4" class="tab-pane fade">
-			<h1>Choice 4</h1>
-			<p>Desription of this option</p>
-		</div>
-	</div>
   </body>
   
   <style>
